@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        background-color: #f0f8ff;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        background-color: aliceblue;
+    }
+
+    .navbar-nav{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+    }
+
+    .navbar-nav img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar-nav h3 {
+        padding-top: 16px;
+    }
+
+    .navbar-btn {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 20px;
+    }
+
+.button {
+    text-decoration: none;
+    color: #404040;
+    margin-right: 100px;
+    padding-left: 1px;
+}
+
+.button:hover {
+    color: #6C63FF;
+    transition: all 0.2s ease-in-out;
+}
+
+.container {
+    width: 100vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.title1,
+.title2{
+    font-size: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #404040;
+}
+
+.title1 {
+    margin-right: 250px;
+}
+
+.title2 {
+    margin-right: 97px;
+}
+
+.title2::before {
+    content: ' ';
+    width: 15%;
+    height: 2px;
+    background-color: #6C63FF;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.description-about {
+    padding-left: 100px;
+    text-align:left;
+    font-size: 15px;
+    line-height: 23px;
+    position: relative;
+    color: #404040;
+}
+
+.skills {
+    background-color: #B1D4E0;
+}
+
+.title-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.title-skills h1 {
+    font-size: 35px;
+    padding-top: 30px;
+    color: #404040;
+}
+
+.description-img-technologies {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.technologies {
+    width: 500px;
+    height:200px;
+}
+
+.technologies img {
+    width: 70px;
+    height: 70px;
+    margin-left: 180px;
+    transition: all 0.5s ease-in-out;
+}
+
+.technologies img:hover {
+    scale: 1.2;
+    transition: all 0.5s ease-in-out;
+}
+
+.description-technologies {
+     font-size: 15px;
+     text-align: center;
+}
+.description-img-technologies-2 {
+    display: flex;
+    justify-content: space-around;
+}
